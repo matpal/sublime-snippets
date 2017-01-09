@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+<amp-youtube
+    data-videoid="${1:Youtube Video ID}"
+    layout="${2:responsive}"
+    width="${3}" height="${4}"></amp-youtube>
+
+    <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>amp-youtube</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html</scope>
+</snippet>

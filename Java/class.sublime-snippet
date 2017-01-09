@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+public class ${1:className} extends ${2:className} implements ${3:className}{
+    
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>class</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.java</scope>
+</snippet>
